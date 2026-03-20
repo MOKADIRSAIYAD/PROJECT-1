@@ -1,0 +1,12 @@
+print("Welcome to tthe interactive Personal Data Collector !")
+name=input("Please enter your name")
+age=int(input("Please enter your age"))
+height=float(input("Please enter your heights in meters"))
+fav_num=int(input("Please enter your favourite number"))
+print("Thank your information has collected")
+print(f"Name:{name}",type(name),id(name))
+print(f"Age:{age}",type(age),id(age))
+print(f"Height:{height}",type(height),id(height))
+print(f"Favourite Number:{fav_num}",type(fav_num), id(fav_num))
+approx_age=2026-age
+print(f"Your Birth Year is approximately :{approx_age}")
